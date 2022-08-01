@@ -1,0 +1,62 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  color: rgb(17, 17, 17);
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(235, 244, 242);
+  text-align: center;
+  font-size: 13px;
+}
+
+.card {
+  width: 600px;
+  height: 900px;
+  border-radius: 25px;
+  background: rgb(126, 123, 168);
+}
+
+H1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin: 25px auto;
+}
+
+input {
+  color: rgba(0, 0, 0, 0.9);
+  border: 2px solid rgb(44, 44, 44);
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  transition: 0.4s ease;
+  cursor: pointer;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border: 3px solid rgb(28, 28, 121);
+}
+
+li {
+  margin: 20px 0 20px 80px;
+  text-align: left;
+}
+
+.display li {
+  display: block;
+}
