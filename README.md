@@ -14,8 +14,8 @@ This is a solution for a simple todo list :
 
 ### Links
 
-- Solution URL: [Github code]()
-- Live Site URL: [You can see here]()
+- Solution URL: [Github code](https://github.com/Stv-devl/Todo-list-)
+- Live Site URL: [You can see here](https://stv-devl.github.io/Todo-list-/)
 
 ## My process
 
