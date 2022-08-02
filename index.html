@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Todo list</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-  <link rel="stylesheet" href="./style.css">
+
+  <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
-  <main class="card">
-    <h1>todo list</h1>
+
+  <div class="container">
+    <h1>Todo List</h1>
     <form action="">
-      <div class="todo-container">
-        <label for="todo"></label>
-        <input type="text" autocomplete="off" id="todo" placeholder="To do">
-      </div>
+      <input type="text" id="item" placeholder="À faire" autocomplete="off" minlength="3">
     </form>
-    <ul class="todolist">
-    </ul>
-  </main>
-  <script src="index.js"></script>
+    <ul id="list"></ul>
+  </div>
+  <script src="./script.js"></script>
 </body>
+
+
 
 </html>
