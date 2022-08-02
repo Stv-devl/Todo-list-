@@ -20,16 +20,14 @@ const inputChecker = (value) => {
 };*/
 
 document.addEventListener("keypress", (e) => {
-  console.log(input.value);
+  /* console.log(input.value);*/
   if (e.key == "Enter") {
-    todo.innerHTML = `${input.value}`;
+    todo.innerHTML = `<p><i class="fa-solid fa-star-of-life"></i>${input.value}<i id="delete"m class="fa-solid fa-trash"></i></p>`;
     e.preventDefault();
   }
 });
 
-/*
-document.addEventListener("input", (e) => {
-  input.value == todo;
-  document.todo.innerHTML = "todo";
+// when we click on todo html will be remove
+todo.addEventListener("click", () => {
+  todo.innerHTML = ``;
 });
-*/

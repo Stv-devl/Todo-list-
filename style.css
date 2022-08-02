@@ -54,8 +54,22 @@ input:focus {
 li {
   margin: 20px 0 20px 80px;
   text-align: left;
+  cursor: pointer;
 }
 
-.display li {
-  display: block;
+p {
+  font-weight: bold;
+  color: rgb(15, 15, 15);
+}
+
+i {
+  padding: 0 10px 0 10px;
+}
+
+#delete {
+  cursor: pointer;
+}
+
+#delete:hover {
+  color: rgb(138, 9, 9);
 }
