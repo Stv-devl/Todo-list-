@@ -38,14 +38,13 @@ input {
   width: 400px;
   height: 50px;
   border-radius: 20px;
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 0.7rem;
   letter-spacing: 1px;
   transition: 0.4s ease;
   cursor: pointer;
   padding-left: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 input:focus {
